@@ -1,0 +1,29 @@
+import { createRouter, createWebHistory } from 'vue-router';
+import HomeView from '../views/HomeView.vue';
+import UtilityOneView from '../views/UtilityOneView.vue';
+import UtilityTwoView from '../views/UtilityTwoView.vue';
+
+const routes = [
+	{
+		path: '/',
+		name: 'home',
+		component: HomeView,
+	},
+	{
+		path: '/utility-one',
+		name: 'utility-one',
+		component: UtilityOneView,
+	},
+	{
+		path: '/utility-two',
+		name: 'utility-two',
+		component: UtilityTwoView,
+	},
+];
+
+const router = createRouter({
+	history: createWebHistory(process.env.BASE_URL),
+	routes,
+});
+
+export default router;
