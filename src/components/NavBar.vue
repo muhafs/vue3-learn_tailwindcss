@@ -5,6 +5,7 @@
 		<router-link class="text-slate-300 mr-3 font-semibold" to="/">Home</router-link>
 		<router-link class="text-slate-300 mr-3 font-semibold" to="/utility-one">Utility 1</router-link>
 		<router-link class="text-slate-300 mr-3 font-semibold" to="/utility-two">Utility 2</router-link>
+		<router-link class="text-slate-300 mr-3 font-semibold" to="/pseudo-class">Pseudo Classes</router-link>
 	</nav>
 </template>
 
