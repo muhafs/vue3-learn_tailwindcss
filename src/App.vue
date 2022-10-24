@@ -14,4 +14,8 @@
 	};
 </script>
 
-<style></style>
+<style>
+	body {
+		@apply dark:bg-slate-800 dark:text-slate-200;
+	}
+</style>

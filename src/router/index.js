@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue';
 import UtilityOneView from '../views/UtilityOneView.vue';
 import UtilityTwoView from '../views/UtilityTwoView.vue';
 import PseudoClassesView from '../views/PseudoClassesView.vue';
+import AnimationsView from '../views/AnimationsView.vue';
 
 const routes = [
 	{
@@ -24,6 +25,11 @@ const routes = [
 		path: '/pseudo-class',
 		name: 'pseudo-class',
 		component: PseudoClassesView,
+	},
+	{
+		path: '/animation',
+		name: 'animation',
+		component: AnimationsView,
 	},
 ];
 

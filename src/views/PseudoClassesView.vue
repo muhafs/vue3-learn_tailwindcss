@@ -2,6 +2,7 @@
 	<h1 class="my-10 text-6xl font-bold text-center mx-auto max-w-3xl">
 		<span class="bg-gradient-to-r from-blue-500 to-teal-400 bg-clip-text text-transparent">Pseudo Classes & Dark Mode</span>
 	</h1>
+
 	<section class="mb-5">
 		<button
 			class="bg-sky-500 text-white px-5 py-2 font-semibold font-inter mx-auto block rounded-full hover:bg-sky-600 active:bg-sky-700 focus:ring focus:ring-sky-300 focus:border focus:border-sky-400 outline-none dark:bg-slate-300 dark:hover:bg-slate-200 dark:text-slate-800 dark:hover:text-slate-900"
