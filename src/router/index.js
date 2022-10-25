@@ -4,6 +4,7 @@ import UtilityOneView from '../views/UtilityOneView.vue';
 import UtilityTwoView from '../views/UtilityTwoView.vue';
 import PseudoClassesView from '../views/PseudoClassesView.vue';
 import AnimationsView from '../views/AnimationsView.vue';
+import ResponsiveView from '../views/ResponsiveView.vue';
 
 const routes = [
 	{
@@ -30,6 +31,11 @@ const routes = [
 		path: '/animation',
 		name: 'animation',
 		component: AnimationsView,
+	},
+	{
+		path: '/responsive',
+		name: 'responsive',
+		component: ResponsiveView,
 	},
 ];
 
